@@ -4,7 +4,7 @@
  * sisifo - its a infinite loop that shows the prompt
  * @prompt: prompt to be printed
  * @data: its a infinite loop that shows the prompt
- */
+ *
 void sisifo(char *prompt, data_of_program *data)
 {
 	int error_code = 0, string_len = 0;
@@ -33,7 +33,7 @@ void sisifo(char *prompt, data_of_program *data)
 			free_recurrent_data(data);
 		}
 	}
-}
+}*/
 /**
  * inicialize_data - inicialize the struct with the info of the program
  * @data: pointer to the structure of data
